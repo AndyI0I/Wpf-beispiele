@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Vorname&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="88,66,0,0" VerticalAlignment="Top" Width="80" Height="27"/>
+        <Label Content="Nachname&#xA;" HorizontalAlignment="Left" Margin="88,112,0,0" VerticalAlignment="Top" Width="80" Height="27"/>
+        <Label Content="E-Mail" HorizontalAlignment="Left" Margin="88,158,0,0" VerticalAlignment="Top" Width="80" Height="27"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="88,0,0,0" VerticalAlignment="Center" Width="80" Height="27"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="173,0,0,0" VerticalAlignment="Center" Width="120"/>
+        <TextBox x:Name="eMail" HorizontalAlignment="Left" Margin="173,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="nachname" HorizontalAlignment="Left" Margin="173,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="vorname" HorizontalAlignment="Left" Margin="173,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="cancel" Content="Cancel" HorizontalAlignment="Left" Margin="88,264,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button x:Name="submit" Content="Submit" HorizontalAlignment="Left" Margin="229,264,0,0" VerticalAlignment="Top" Width="64"/>
 
     </Grid>
 </Window>
